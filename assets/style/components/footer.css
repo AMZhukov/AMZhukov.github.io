@@ -1,0 +1,29 @@
+
+.footer {
+    background: black;
+    width: 100%;
+    height: 100%;
+}
+.footer__connect-list {
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    background: #000;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.footer__connect-item {
+    list-style-type: none;
+    vertical-align: center;
+    display: flex;
+    padding: 30px;
+}
+.footer__connect-item svg {
+    width: 25px;
+    height: 25px;
+    fill: #FFF;
+    margin: auto;
+}
+.footer__connect-item svg:hover {
+    fill: #AAA;
+}
