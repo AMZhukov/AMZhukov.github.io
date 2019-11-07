@@ -12,17 +12,17 @@
     justify-content: space-between;
 
 }
-.portfolio__content-image {
+.portfolio__content-item {
     width: 50%;
+}
+.portfolio__content-image {
+    max-width: 500px;
+    max-height: 500px;
     margin-top: 65px;
     right: 0;
     display: flex;
     justify-content: flex-start;
 
-}
-.portfolio__content-item {
-    max-width: 500px;
-    max-height: 500px;
 }
 .portfolio__content-image img {
     width: 100%;
