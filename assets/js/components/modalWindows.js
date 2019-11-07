@@ -26,6 +26,11 @@ const modalWindows = (buttonStart, elem, buttonClose, windowClass, hideStartButt
             handlerTarget(element);
         }
     });
+    window.onkeydown = function( event ) {
+        if ( event.code === 'Escape' && element.style.display === 'block') {
+            handlerTarget(element);
+        }
+    };
 
 };
 

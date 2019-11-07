@@ -47,7 +47,6 @@
     height: 348px;
     background-color: #1e1c34;
     margin: 0 auto;
-    text-align: center
 }
 
 .popup__form-content-btn {
@@ -152,7 +151,7 @@ input {
     margin-bottom: 12px;
 }
 .popup__form-content-btn {
-    font-family: 'Roboto';
+    font-family: 'Arial', sans-serif ;
     background-color: #ccaacc;
     color: #1e1c34;
     height: 45px;
