@@ -1,0 +1,11 @@
+.toTop {
+    width: 30px;
+    height: 30px;
+    right: 30px;
+    bottom: 30px;
+    position: fixed;
+    z-index: 200;
+}
+.toTop__button svg {
+    fill: #9969C7;
+}
