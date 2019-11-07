@@ -73,7 +73,7 @@ class Validator{
             return;
         }
         const errorDiv = document.createElement('div');
-        errorDiv.textContent = `Ошибка в этом поле`;
+        errorDiv.textContent = `Error in this field`;
         errorDiv.classList.add('validator-error');
         if (elem.nextElementSibling){
             elem = elem.nextElementSibling;
@@ -111,13 +111,14 @@ class Validator{
     }
     setPattern(){
         if (!this.pattern.phone){
-            this.pattern.phone = /^\+?[78]([-()]*\d){10}$/;
+            this.pattern.phone = /^\+?[78]([-() ]*\d){10}$/;
         }
         if (!this.pattern.email){
             this.pattern.email = /^([-_.]*\w)+@([-_.]*\w)+\.\w{2,}$/;
         }
         if (!this.pattern.nameAndText) {
-            this.pattern.nameAndText = (/^[А-ЯЁ ]*$/i); //форма для только русских слов с пробелами
+            // this.pattern.nameAndText = (/^[А-ЯЁ ]*$/i); //форма для только русских слов с пробелами
+            this.pattern.nameAndText = (/^[A-Z ]*$/i); //форма для только английских слов с пробелами
         }
         if (!this.pattern.check1) {
             this.pattern.check1 = 'checked'; //данную форму можно не заполнять, т.к. алгоритм сам определит checkbox
