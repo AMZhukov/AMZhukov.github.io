@@ -4,7 +4,7 @@
     background: #000;
     position: relative;
 }
-.about-container {
+.about__container {
     display: flex;
     justify-content: space-between;
     max-width: 1170px;
@@ -12,31 +12,31 @@
     height: 100%;
     margin: auto;
 }
-.about-left {
+.about__left {
     width: 50%;
     color: #DDDCCC;
     line-height: 200%;
 }
-.about-me {
+.about__me {
     font-size: 50px;
     padding: 65px 10px 10px 0;
 }
-.about-me-briefly {
+.about__me-briefly {
     font-size: 30px;
     padding: 40px 10px 10px 0;
 }
-.about-me-long {
+.about__me-long {
     font-size: 20px;
     padding: 20px 10px 10px 0;
 }
-.about-right {
+.about__right {
     width: 50%;
     padding: 65px 0;
     right: 0;
     display: flex;
     justify-content: flex-end;
 }
-.about-right-photo {
+.about__right-photo {
     width: 80%;
     height: 97%;
     border-radius: 100px;
@@ -45,6 +45,6 @@
     object-fit: cover;
 
 }
-.about-right-photo:hover {
+.about__right-photo:hover {
     filter: grayscale(0);
 }

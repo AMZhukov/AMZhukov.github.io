@@ -3,7 +3,7 @@
     height: 750px;
     background: #FFF;
 }
-.education-container {
+.education__container {
     max-width: 1170px;
     width: 100%;
     height: 100%;
@@ -35,15 +35,18 @@
     /*line-height: 200%;*/
     justify-content: flex-end;
 }
-.education-title {
+.education__title {
     font-size: 50px;
     padding: 65px 10px 10px 0;
 }
-.education-university {
+.education__place-of-study{
+
+}
+.education__university {
     font-size: 35px;
     padding: 40px 10px 10px 0;
 }
-.education-specialty {
+.education__specialty {
     font-size: 25px;
     padding: 20px 10px 10px 0;
 }
