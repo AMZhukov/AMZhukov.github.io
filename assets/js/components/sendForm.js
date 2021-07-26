@@ -9,7 +9,7 @@ const sendForm = (id) => {
     const blockedButton = () => {
 
         if (!form.querySelector('.error')) {
-
+            console.log('идёт проверка');
             if (button.getAttribute('disabled')) button.removeAttribute('disabled');
         } else button.setAttribute('disabled', 'true');
 
@@ -32,6 +32,7 @@ const sendForm = (id) => {
 
     form.addEventListener('submit', (event) => {
         event.preventDefault();
+        if (form.querySelector('.error')) return false;
         if (id == '#form1' || id == '#form2') {
             form.appendChild(statusMessage);
             statusMessage.textContent = loadMessage;

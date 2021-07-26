@@ -21,7 +21,7 @@ class Validator{
                 e.preventDefault();
             }
             console.log(this.form);
-            if (this.getAttribute("type") === 'checkbox' && !this.checked){
+            if (this.form.getAttribute("type") === 'checkbox' && !this.checked){
                 e.preventDefault();
             }
         });

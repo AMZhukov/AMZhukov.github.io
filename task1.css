@@ -1,0 +1,17 @@
+body {
+    color: blue;
+}
+
+#myBox(color: yellow!important;)
+div#box #myBox {
+    color: green;
+}
+
+.myBox {
+    color: inherit
+}
+
+p.myBox#myBox {
+    z-index: 99999;
+    color: black;
+}
